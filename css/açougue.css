@@ -1,0 +1,219 @@
+/*/ O padrão para todos as pag /*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-image: url(../imagens/imagens/Supermercado.webp) ;
+    margin-top:0 0 0 0;
+    
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+}
+
+.pag{
+    height: 250px;
+}
+
+
+h4{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgba(46, 48, 49, 0.767);
+    padding-bottom: 20px;
+    border-bottom: solid 2px rgba(46, 48, 49, 0.767);
+    text-shadow: 2px 0px 6px rgba(0, 0, 0, 0.363);   
+}
+/*/ O padrão para todos as pag /*/
+.caixa{
+    height: 380px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.preco{
+    text-align: center;
+    font-size: 15pt;
+    padding-top: 10px;
+    color: red;
+}
+main img{
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding-top: 10%
+}
+#churasco{
+    display: grid;
+    width: 60%;
+    grid-template-columns: 4fr 4fr 2fr;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#um{
+    margin-top: 20px;
+    width: 140px;
+}
+    #dois{
+    margin-top: 30px;
+    width: 100px;
+}
+    #tres{
+    margin-top: 90px;
+    width: 180px;
+}
+    #quatro{
+    margin-top: 60px;
+    width: 180px;
+}
+    #cinco{
+    margin-top: 10px;
+    width: 125px;
+}
+    #seis{
+    margin-top: 10px;
+    width: 140px;
+}
+    #sete{
+    margin-top: 50px;
+    width: 190px;
+}
+    #oito{
+    margin-top: 40px;
+    width: 190px;
+}
+    #nove{
+    margin-top: 30px;
+    width: 190px;
+}
+    #dez{
+    margin-top: 50px;
+    width: 190px;
+}
+    #onze{
+    margin-top: 60px;
+    width: 220px;
+}
+
+#descriçãoum{
+    text-align: center;
+    font-size: 13pt;
+    border-bottom: solid rgba(46, 48, 49, 0.767) 1.5px;
+    margin-top: 28px;
+}
+    #descriçãodois{
+    text-align: center;
+    font-size: 13pt;
+    border-bottom: solid rgba(46, 48, 49, 0.767) 1.5px;
+    margin-top: 53px;
+}
+    #descriçãotres{
+    text-align: center;
+    font-size: 13pt;
+    border-bottom: solid rgba(46, 48, 49, 0.767) 1.5px;
+    margin-top: 72px;
+}
+    #descriçãoquatro{
+    text-align: center;
+    font-size: 13pt;
+    border-bottom: solid rgba(46, 48, 49, 0.767) 1.5px;
+    margin-top: 76px;
+}
+    #descriçãocinco{
+    text-align: center;
+    font-size: 13pt;
+    border-bottom: solid rgba(46, 48, 49, 0.767) 1.5px;
+    margin-top: 92px;
+}
+    #descriçãoseis{
+    text-align: center;
+    font-size: 13pt;
+    border-bottom: solid rgba(46, 48, 49, 0.767) 1.5px;
+    margin-top: 55px;
+}
+    #descriçãosete{
+    text-align: center;
+    font-size: 13pt;
+    border-bottom: solid rgba(46, 48, 49, 0.767) 1.5px;
+    margin-top: 104px;
+}
+    #descriçãooito{
+    text-align: center;
+    font-size: 13pt;
+    border-bottom: solid rgba(46, 48, 49, 0.767) 1.5px;
+    margin-top: 96px;
+}
+    #descriçãonove{
+    text-align: center;
+    font-size: 13pt;
+    border-bottom: solid rgba(46, 48, 49, 0.767) 1.5px;
+    margin-top: 84px;
+}
+    #descriçãodez{
+    text-align: center;
+    font-size: 13pt;
+    border-bottom: solid rgba(46, 48, 49, 0.767) 1.5px;
+    margin-top: 70px;
+}
+    #descriçãoonze{
+    text-align: center;
+    font-size: 13pt;
+    border-bottom: solid rgba(46, 48, 49, 0.767) 1.5px;
+    margin-top: 79px;
+}
+
+
+@media(max-width: 950px){
+    footer{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    footer .box{
+        width: 100%;
+        text-align: center;
+    }
+    footer .box:nth-child(4){
+        width: 100%;
+    }
+    form, input, textarea{
+        width: 50%;
+        height: auto;
+        flex-direction: column;
+        margin: auto; 
+    }
+    .menu{
+
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .caixa, #ze{
+        display: contents;
+       
+    }
+    main figcaption{
+        text-align: center;
+        margin: auto;
+        margin: none;
+        padding: none;
+
+    }
+
+   
+}
+
+/*/ Fotteeeeeeeeeeeeeeeer /*/
+

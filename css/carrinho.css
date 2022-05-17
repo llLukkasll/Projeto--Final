@@ -1,0 +1,45 @@
+/*/ O padrão para todos as pag /*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-image: url(../imagens/imagens/Supermercado.webp) ;
+    margin-top:0 0 0 0;
+    
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+}
+
+
+
+.final{
+    width: 100%;
+
+}
+.linha, .final{
+    border: solid 2px black;
+    text-align: center;
+}
+
+.pag{
+    height: 250px;
+}
+
+
+h4{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgba(46, 48, 49, 0.767);
+    padding-bottom: 20px;
+    border-bottom: solid 2px rgba(46, 48, 49, 0.767);
+    text-shadow: 2px 0px 6px rgba(0, 0, 0, 0.363);   
+}
+/*/ O padrão para todos as pag /*/

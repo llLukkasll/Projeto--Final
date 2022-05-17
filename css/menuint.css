@@ -1,0 +1,264 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+        font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-image: url(../imagens/imagens/Supermercado.webp) ;
+    margin-top:0;
+
+}
+.caixa:hover{
+    box-shadow: 1px 2px 14px 1px rgb(0, 0, 0);
+}
+#ze{
+    background-color: #3c84b400;
+    height: 100%;
+    width: 100%;
+}
+nav{
+    background-color:#2B83BD;
+    text-align: center;
+}
+a, a:link{
+    padding: 10px;
+    background-color: #2B83BD;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    color: black;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    background-color: wheat;
+    color: black;
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+    padding-top:10px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #205F8A ;
+    margin: 0;
+    height: 30px;
+    color: white;
+    text-shadow: -3px 0px 10px #000000;
+}
+
+.dropdown-menu{
+    display: flex;
+    gap: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dropdown-menu li{
+    width: 110px;
+    height: 45px;
+    list-style: none;
+}
+
+.dropdown-menu a{
+    display: block;
+    background-color: #2B83BD;
+    width: 70%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    transition: all .2s linear;
+}
+
+.dropdown-menu li:hover > a{
+    background-color: #00000075;
+    color: wheat;
+}
+
+.dropdown-menu li:hover > .dropdown-submenu {
+    display: block;
+}
+
+.dropdown-submenu{
+    margin-top: 1px;
+    display: none;
+}
+
+.dropdown-submenu a{
+    background-color: #2B83BD;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    font-size: 11px;
+    border-left:  solid transparent;
+}
+.dropdown-submenu li:hover > a{
+    border-left: 8px solid black;
+}
+
+.pag{
+    height: 250px;
+}
+
+body{
+    background-color: #3c84b421;
+}
+
+footer{
+    justify-content: center;
+    width: 100%;
+    min-height: 150px;
+    background: #20323D;
+    display: flex;
+
+}
+
+footer .box{
+    justify-content: center;
+    margin: auto;
+    width: 300px;
+    min-height: 150px;
+    padding: 2px;
+
+}
+
+footer .box:nth-child(4){
+    width: 400px;
+    
+}
+
+.box h2 {
+    margin-bottom: 20px;
+}
+
+.box ul li {
+    justify-content: center;
+    margin:  10px 0px;
+    list-style: none;
+}
+.box{
+    color: white;
+    height: 100px;
+}
+
+.box ul li a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.box ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.footer{
+    width: 100%;
+    height: 70px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#20323D;
+
+}
+
+.footer h2{
+    color: rgb(255, 255, 255);
+    padding-left: 2%;
+    margin-left: 10px;
+    padding-right: 2%;
+}
+
+.footer .sociais{
+    display: flex;
+}
+
+.sociais .social{
+    width: 30%;
+    text-align: flex;
+    line-height: 40px;
+    background: #000000 ;
+    margin: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background .3s linear
+}
+.sociais .social a{
+    color: black;
+    font-size: 1.5em;
+    transition: color .3s linear;
+}
+
+.sociais .social:hover{
+    background: rgb(255, 255, 255);
+}
+
+.sociais .social:hover a{
+    background: rgb(255, 255, 255);
+}
+
+#ah{
+    width: 100%;
+
+}
+
+@media(max-width: 950px){
+    .dropdown-menu{
+        font-size: 75%;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .dropdown-menu a {
+        font-size: 75%;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media(max-width: 460px){
+    html{
+        font-size: 50%;
+    }
+    .dropdown-menu a {
+        font-size: 75%;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .dropdown-menu li{
+        min-width: 25px;
+        height: 45px;
+        list-style: none;
+    }
+
+}

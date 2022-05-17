@@ -1,0 +1,163 @@
+/*/ O padrão para todos as pag /*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-image: url(../imagens/imagens/Supermercado.webp) ;
+    margin-top:0 0 0 0;
+    
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+}
+
+.pag{
+    height: 250px;
+}
+
+
+h4{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgba(46, 48, 49, 0.767);
+    padding-bottom: 20px;
+    border-bottom: solid 2px rgba(46, 48, 49, 0.767); 
+    text-shadow: 2px 0px 6px rgba(0, 0, 0, 0.363);  
+}
+/*/ O padrão para todos as pag /*/
+
+
+.caixa{
+    height: 380px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.caixa:hover{
+    box-shadow: 1px 2px 14px 1px rgb(249, 197, 65);
+}
+.preco{
+    text-align: center;
+    font-size: 15pt;
+    padding-top: 10px;
+    color: red;
+}
+main img{
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding-top: 10%
+}
+
+#limpeza{
+    display: grid;
+    width: 60%;
+    grid-template-columns: 4fr 4fr 2fr;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#um{
+    margin-top: 42px;
+    width: 130px;
+}
+#dois{
+    margin-top: 92px;
+    width: 140px;
+}
+#tres{
+    margin-top: 42px;
+    width: 100px;
+}
+#quatro{
+    margin-top: 00px;
+    width: 70px;
+}
+#cinco{
+    margin-top: 80px;
+    width: 170px;
+}
+
+
+#descriçãoum{
+    text-align: center;
+    font-size: 13pt;
+    border-bottom: solid rgba(46, 48, 49, 0.767) 1.5px;
+    margin-top: 46px;
+}
+#descriçãodois{
+    text-align: center;
+    font-size: 13pt;
+    border-bottom: solid rgba(46, 48, 49, 0.767) 1.5px;
+    margin-top: 44px;
+}
+#descriçãotres{
+    text-align: center;
+    font-size: 13pt;
+    border-bottom: solid rgba(46, 48, 49, 0.767) 1.5px;
+    margin-top: 43px;
+}
+#descriçãoquatro{
+    text-align: center;
+    font-size: 13pt;
+    border-bottom: solid rgba(46, 48, 49, 0.767) 1.5px;
+    margin-top: 23px;
+}
+#descriçãocinco{
+    text-align: center;
+    font-size: 13pt;
+    border-bottom: solid rgba(46, 48, 49, 0.767) 1.5px;
+    margin-top: 32px;
+}
+
+
+
+@media(max-width: 950px){
+    footer{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    footer .box{
+        width: 100%;
+        text-align: center;
+    }
+    footer .box:nth-child(4){
+        width: 100%;
+    }
+    form, input, textarea{
+        width: 50%;
+        height: auto;
+        flex-direction: column;
+        margin: auto; 
+    }
+    .menu{
+
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .caixa, #ze{
+        display: contents;
+       
+    }
+    main figcaption{
+        text-align: center;
+        margin: auto;
+        margin: none;
+        padding: none;
+
+    }
+}
+/*/ Fotteeeeeeeeeeeeeeeer /*/
+

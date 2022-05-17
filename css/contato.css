@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-image: url(../imagens/imagens/Supermercado.webp) ;
+    margin-top:0;
+
+}
+
+.menu{
+position: fixed;     width: 100%;     top: 0;}
+
+
+
+
+h1, p{
+    text-align: center;
+}
+
+section{
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 150px;
+    padding-top: 300px;
+}
+
+form div{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form, input, textarea{
+    outline: unset;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+form{
+    width: 450px;
+    height: 550px;
+    margin: auto;
+    border: solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #205F8A;
+    margin-top: 30px;
+}
+
+button{
+    font-size: 1.2em;
+    background-color: #000000;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow:2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2) ;
+}
+button:hover{
+    background:#141963;
+    box-shadow: 2px 2px 2px 2px #002136;
+    text-shadow: none;
+}
+
+
+
+@media(max-width: 950px){
+    footer{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    footer .box{
+        width: 100%;
+        text-align: center;
+    }
+    footer .box:nth-child(4){
+        width: 100%;
+    }
+    form, input, textarea{
+        width: 50%;
+        height: auto;
+        flex-direction: column;
+        margin: auto; 
+    }
+    .menu, #ze{
+
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+}
+/*/ Fotteeeeeeeeeeeeeeeer /*/
+
+
+
+
