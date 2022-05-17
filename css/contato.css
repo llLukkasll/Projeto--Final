@@ -94,6 +94,22 @@ button:hover{
         justify-content: center;
 
     }
+    form, input, textarea{
+        outline: unset;
+        padding: 20px;
+        border-radius: 20px;
+        margin-right: 10px;
+        margin: auto;
+        height: 70px;
+        width: 290px;
+    }
+
+    form{
+        margin: auto;
+        width: 325px;
+        height: 480px;
+
+}
 }
 /*/ Fotteeeeeeeeeeeeeeeer /*/
 
